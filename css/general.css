@@ -1,0 +1,446 @@
+/* 
+    En general.css se encuentra:
+        - el reset
+        - el root
+        - los font-face
+        - utilidades
+        - todo lo referente al header
+        - todo lo referente al footer
+ */
+
+/* RESET */
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    display: block;
+}
+
+p a {
+    display: inline;
+}
+
+img, svg, video {
+    display: block;
+    width: 100%;
+    height: initial;
+    aspect-ratio: initial;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    color:inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+p , strong , em , mark , a {
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    color:inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+/* ROOT */
+
+:root {
+    font-size: 100%;
+
+    --bg-color: #FEFEFD;
+    --text-color: #4A4A4A;
+    --decoration-color: #9e2a2b;
+}
+
+/* FONT FACE */
+
+/* raleway-300 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway-300';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/raleway/raleway-v34-latin-300.woff2') format('woff2');
+}
+
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway/raleway-v34-latin-regular.woff2') format('woff2');
+}
+
+/* raleway-500 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway-500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/raleway/raleway-v34-latin-500.woff2') format('woff2');
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway-600';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway/raleway-v34-latin-600.woff2') format('woff2');
+}
+
+/* yeseva-one-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/yeseva-one/yeseva-one-v22-latin-regular.woff2') format('woff2');
+}
+
+/* BODY */
+
+body {
+    font-family: 'Raleway-regular', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* UTILIDADES */
+
+/* display */
+
+.d-flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.d-flex-row-start {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.d-flex-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* position */
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-absolute-bottom {
+    bottom: 0;
+    left: 0;
+}
+
+.p-absolute-top {
+    top: 0;
+    left: 0;
+}
+
+/* button */
+
+.u-button-style {
+    background-color: transparent;
+
+    font-family: 'Raleway-regular', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+    padding: .625rem 1.25rem;
+    border: 1px solid var(--decoration-color);
+
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.u-button-style:hover {
+    background-color: var(--decoration-color);
+    color: var(--bg-color);
+}
+
+/* font */
+.u-font-raleway-600{
+    font-family: 'Raleway-600', sans-serif;
+}
+
+
+/* HEADER */
+
+.Header {
+    width: 100%;
+    padding: 2rem 5rem;
+
+    text-transform: uppercase;
+    color: var(--decoration-color);
+
+    flex-wrap: wrap;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Menú hamburguesa y Logo */
+
+.Header-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 1.25rem;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Menú hamburguesa */
+
+.Header-button {
+    background-color: transparent;
+    color: var(--decoration-color);
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity .25s ease;
+}
+
+.Header-button:hover {
+    cursor: pointer;
+}
+
+.Header-button.isVisible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.Header-button--open {
+    position: absolute;
+}
+
+/* Logo */
+
+.Header-h1 {
+    font-family: 'Yeseva One', serif;
+    font-size: 1.5rem;
+}
+
+/* Navegación */
+
+.Nav {
+    font-family: 'Raleway-500', sans-serif;
+    font-weight: 500;
+}
+
+
+.Nav-ul--user {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Nav-a--userIcon {
+    width: 1.25rem;
+    display: none;
+}
+
+/* Menú de navegación ropa */
+
+.Nav--clothes {
+    width: 40%;
+    height: 100vh;
+    padding: 5rem 0 5rem 7.5rem;
+    background-color: var(--bg-color);
+
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    z-index: 1;
+
+    transform: translateX(-1000px);
+    transition: transform .25s ease-in-out;
+}
+
+.Nav--clothes.isVisible {
+    transform: translateX(0px);
+}
+
+.Nav-ul--clothes {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+/* Menú de navegación general */
+
+.Nav-a {
+    position: relative;
+    padding: 0 0 2px;
+    transition: color .25s ease;
+}
+
+.Nav-a::before, .Nav-a::after {
+    content: '';
+    position: absolute;
+    background: var(--decoration-color); 
+    width: 0;
+    height: 1.5px;
+    border-radius: 1.5px;
+    right: 0;
+    bottom: 0;
+    transition: width .25s linear;
+}
+
+.Nav-a:hover {
+    color: var(--decoration-color);
+}
+
+.Nav-a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* FOOTER */
+
+.Footer {
+    border-top: 1px solid var(--decoration-color);
+    padding: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 3rem;
+}
+
+.Footer-h3 {
+    margin: 0 0 1.5rem 0;
+    font-family: 'Raleway-600', sans-serif;
+    font-weight: 600;
+}
+
+.Footer-ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+}
+
+.Footer-ul--rrss {
+    flex-flow: row nowrap;
+}
+
+.Footer-li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Footer-svg {
+    width: 1.5rem;
+}
+
+.Footer-a {
+    transition: color .25s ease;
+}
+
+.Footer-a:hover {
+    color: var(--decoration-color);
+}
+
+/* @MEDIA */
+
+@media (max-width:1024px) {
+
+    .Footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Footer-section--logo {
+        display: none;
+    }
+}
+
+@media (max-width:850px) {
+    .Footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+
+    .Nav--clothes {
+        width: 60%;
+    }
+
+    .Nav-ul--user {
+        display: none;
+    }
+
+    .Nav-a--userIcon {
+        display: block;
+    }
+}
+
+@media (max-width:580px) {
+    .Footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Footer-a--contact {
+        display: none;
+    }
+
+    .Footer-ul--contact {
+        flex-direction: row;
+    }
+}
+
+@media (max-width:480px) {
+
+    .Header {
+        padding: 2rem 2rem;
+    }
+
+    .Nav--clothes {
+        width: 90%;
+    }
+
+    .Footer {
+        padding: 2rem 2rem;
+    }
+}

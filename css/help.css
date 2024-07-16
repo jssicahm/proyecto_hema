@@ -1,0 +1,32 @@
+/* ROOT */
+
+:root {
+    font-size: 100%;
+
+    --bg-color: #FBFAF8;
+    --text-color: #4A4A4A;
+    --decoration-color: #E1AFAF;
+}
+
+/* HEADER */
+
+.Header {
+    background-color: var(--bg-color);
+    z-index: 2;
+}
+
+/* MAIN */
+
+.Main {
+    padding: 8rem 5rem 2rem;
+}
+
+.Article {
+    margin: 0 0 2rem 0;
+}
+
+.Article-h2 {
+    margin: 0 0 1rem 0;
+    font-family: "Raleway-500";
+    font-size: 1.125rem;
+}
