@@ -17,12 +17,12 @@
             nombre: 'Top Crochet Sol',
             descripcion: 'Un top a crochet inspirado en el sol, perfecto para el verano. Un top a crochet inspirado en el sol, perfecto para el verano. Un top a crochet inspirado en el sol, perfecto para el verano. Un top a crochet inspirado en el sol, perfecto para el verano. Un top a crochet inspirado en el sol, perfecto para el verano. Un top a crochet inspirado en el sol, perfecto para el verano.',
             precio: 25.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_01-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_01-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_01-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_01-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_01-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_01-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_01_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_01_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_01_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_01_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_01_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_01_01.webp",
             rebajas: true,
             novedades: false,
             exitos: true
@@ -32,12 +32,12 @@
             nombre: 'Top Crochet Luna',
             descripcion: 'Elegante top a crochet con un diseño lunar.',
             precio: 28.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_02-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_02-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_02-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_02-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_02-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_02-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_02_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_02_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_02_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_02_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_02_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_02_01.webp",
             rebajas: true,
             novedades: false,
             exitos: true
@@ -47,12 +47,12 @@
             nombre: 'Top Crochet Estrella',
             descripcion: 'Top a crochet con detalles de estrellas, ideal para noches especiales.',
             precio: 30.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_03-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_03-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_03-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_03-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_03-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_03-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_03_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_03_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_03_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_03_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_03_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_03_01.webp",
             rebajas: true,
             novedades: false,
             exitos: true
@@ -62,12 +62,12 @@
             nombre: 'Top Crochet Arcoíris',
             descripcion: 'Colorido top a crochet con patrón de arcoíris.',
             precio: 27.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_04-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_04-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_04-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_04-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_04-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_04-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_04_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_04_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_04_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_04_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_04_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_04_01.webp",
             rebajas: true,
             novedades: false,
             exitos: true
@@ -77,12 +77,12 @@
             nombre: 'Top Crochet Floral',
             descripcion: 'Top a crochet con hermosos motivos florales.',
             precio: 32.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_05-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_05-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_05-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_05-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_05-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_05-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_05_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_05_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_05_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_05_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_05_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_05_01.webp",
             rebajas: true,
             novedades: true,
             exitos: true
@@ -92,12 +92,12 @@
             nombre: 'Top Crochet Mariposa',
             descripcion: 'Top a crochet con diseño de mariposas, ideal para primavera.',
             precio: 29.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_06-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_06-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_06-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_06-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_06-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_06-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_06_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_06_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_06_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_06_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_06_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_06_01.webp",
             rebajas: true,
             novedades: true,
             exitos: true
@@ -107,12 +107,12 @@
             nombre: 'Top Crochet Oceano',
             descripcion: 'Un top a crochet con tonos y patrones inspirados en el océano.',
             precio: 33.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_07-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_07-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_07-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_07-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_07-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_07-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_07_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_07_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_07_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_07_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_07_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_07_01.webp",
             rebajas: true,
             novedades: true,
             exitos: true
@@ -122,12 +122,12 @@
             nombre: 'Top Crochet Selva',
             descripcion: 'Top a crochet con motivos de la selva, lleno de vida y color.',
             precio: 31.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_08-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_08-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_08-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_08-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_08-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_08-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_08_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_08_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_08_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_08_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_08_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_08_01.webp",
             rebajas: true,
             novedades: true,
             exitos: true
@@ -137,12 +137,12 @@
             nombre: 'Top Crochet Coral',
             descripcion: 'Top a crochet en colores coral, perfecto para el verano.',
             precio: 26.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_09-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_09-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_09-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_09-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_09-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_09-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_09_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_09_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_09_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_09_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_09_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_09_01.webp",
             rebajas: false,
             novedades: true,
             exitos: false
@@ -152,12 +152,12 @@
             nombre: 'Top Crochet Violeta',
             descripcion: 'Top a crochet en tonos violeta, elegante y sofisticado.',
             precio: 35.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_10-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_10-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_10-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_10-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_10-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_10-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_10_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_10_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_10_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_10_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_10_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_10_01.webp",
             rebajas: false,
             novedades: true,
             exitos: false
@@ -167,12 +167,12 @@
             nombre: 'Top Crochet Lavanda',
             descripcion: 'Un top a crochet suave y delicado en color lavanda.',
             precio: 34.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_11-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_11-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_11-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_11-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_11-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_11-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_11_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_11_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_11_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_11_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_11_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_11_01.webp",
             rebajas: false,
             novedades: true,
             exitos: false
@@ -182,12 +182,12 @@
             nombre: 'Top Crochet Esmeralda',
             descripcion: 'Top a crochet en color esmeralda, vibrante y llamativo.',
             precio: 36.00,
-            small_imgs_jpeg: "../assets/productos/small/jpeg/producto_12-01_300x420.jpeg",
-            small_imgs_webp: "../assets/productos/small/webp/producto_12-01_300x420.webp",
-            medium_imgs_jpeg: "../assets/productos/medium/jpeg/producto_12-01_600x840.jpeg",
-            medium_imgs_webp: "../assets/productos/medium/webp/producto_12-01_600x840.webp",
-            large_imgs_jpeg: "../assets/productos/large/jpeg/producto_12-01_800x1120.jpeg",
-            large_imgs_webp: "../assets/productos/large/webp/producto_12-01_800x1120.webp",
+            small_imgs_jpeg: "../assets/products/small/product_12_01.jpeg",
+            small_imgs_webp: "../assets/products/small/product_12_01.webp",
+            medium_imgs_jpeg: "../assets/products/medium/product_12_01.jpeg",
+            medium_imgs_webp: "../assets/products/medium/product_12_01.webp",
+            large_imgs_jpeg: "../assets/products/large/product_12_01.jpeg",
+            large_imgs_webp: "../assets/products/large/product_12_01.webp",
             rebajas: false,
             novedades: true,
             exitos: false
@@ -206,11 +206,7 @@
         const article = document.createElement('article')
         article.className = 'Grid-article Article'
 
-        var imagen = new Image();
-        imagen.src = 'ruta/a/tu/imagen.jpg';
-
-
-        // .Article-img no tiene loading="lazy"
+        // .Article-img se le añade loading="lazy" luego
         // porque la altura de .Container-content se calcula dinámicamente 
         // ajustándola a su contenido, por lo que se necesita que las imágenes estén cargadas.
 
@@ -238,7 +234,7 @@
                     <source srcset="${product.small_imgs_jpeg}" type="image/jpeg" media="(max-width:650px)">
                     
                     <source srcset="${product.medium_imgs_webp}" type="image/webp">
-                    <img src="${product.medium_imgs_jpeg}" width="600" height="840" alt="${product.nombre}" class="Article-img" fetchpriority="high">
+                    <img src="${product.medium_imgs_jpeg}" width="600" height="840" alt="${product.nombre}" class="Article-img">
                 </picture>
             </a>
         `
@@ -253,6 +249,10 @@
         product.exitos && gridHits.appendChild(article.cloneNode(true))
 
         gridAll.appendChild(article)
+
+        // Añadirle loading="lazy" a todas las .Article-img
+        const images = document.querySelectorAll('.Article-img')
+        images.forEach(img => img.setAttribute('loading', 'lazy'))
 
     })
 

@@ -19,34 +19,34 @@
             descripcion: 'Un top a crochet inspirado en el sol, perfecto para el verano.',
             precio: 25.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_01-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_01-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_01-03_300x420.jpeg",
+                "../assets/products/small/product_01_01.jpeg",
+                "../assets/products/small/product_01_02.jpeg",
+                "../assets/products/small/product_01_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_01-01_300x420.webp",
-                "../assets/productos/small/webp/producto_01-02_300x420.webp",
-                "../assets/productos/small/webp/producto_01-03_300x420.webp",
+                "../assets/products/small/product_01_01.webp",
+                "../assets/products/small/product_01_02.webp",
+                "../assets/products/small/product_01_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_01-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_01-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_01-03_600x840.jpeg",
+                "../assets/products/medium/product_01_01.jpeg",
+                "../assets/products/medium/product_01_02.jpeg",
+                "../assets/products/medium/product_01_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_01-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_01-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_01-03_600x840.webp",
+                "../assets/products/medium/product_01_01.webp",
+                "../assets/products/medium/product_01_02.webp",
+                "../assets/products/medium/product_01_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_01-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_01-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_01-03_800x1120.jpeg",
+                "../assets/products/large/product_01_01.jpeg",
+                "../assets/products/large/product_01_02.jpeg",
+                "../assets/products/large/product_01_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_01-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_01-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_01-03_800x1120.webp",
+                "../assets/products/large/product_01_01.webp",
+                "../assets/products/large/product_01_02.webp",
+                "../assets/products/large/product_01_03.webp"
             ],
             rebajas: true,
             novedades: false,
@@ -58,34 +58,34 @@
             descripcion: 'Elegante top a crochet con un diseño lunar.',
             precio: 28.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_02-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_02-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_02-03_300x420.jpeg",
+                "../assets/products/small/product_02_01.jpeg",
+                "../assets/products/small/product_02_02.jpeg",
+                "../assets/products/small/product_02_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_02-01_300x420.webp",
-                "../assets/productos/small/webp/producto_02-02_300x420.webp",
-                "../assets/productos/small/webp/producto_02-03_300x420.webp",
+                "../assets/products/small/product_02_01.webp",
+                "../assets/products/small/product_02_02.webp",
+                "../assets/products/small/product_02_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_02-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_02-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_02-03_600x840.jpeg",
+                "../assets/products/medium/product_02_01.jpeg",
+                "../assets/products/medium/product_02_02.jpeg",
+                "../assets/products/medium/product_02_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_02-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_02-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_02-03_600x840.webp",
+                "../assets/products/medium/product_02_01.webp",
+                "../assets/products/medium/product_02_02.webp",
+                "../assets/products/medium/product_02_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_02-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_02-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_02-03_800x1120.jpeg",
+                "../assets/products/large/product_02_01.jpeg",
+                "../assets/products/large/product_02_02.jpeg",
+                "../assets/products/large/product_02_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_02-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_02-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_02-03_800x1120.webp",
+                "../assets/products/large/product_02_01.webp",
+                "../assets/products/large/product_02_02.webp",
+                "../assets/products/large/product_02_03.webp"
             ],
             rebajas: true,
             novedades: false,
@@ -97,34 +97,34 @@
             descripcion: 'Top a crochet con detalles de estrellas, ideal para noches especiales.',
             precio: 30.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_03-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_03-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_03-03_300x420.jpeg",
+                "../assets/products/small/product_03_01.jpeg",
+                "../assets/products/small/product_03_02.jpeg",
+                "../assets/products/small/product_03_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_03-01_300x420.webp",
-                "../assets/productos/small/webp/producto_03-02_300x420.webp",
-                "../assets/productos/small/webp/producto_03-03_300x420.webp",
+                "../assets/products/small/product_03_01.webp",
+                "../assets/products/small/product_03_02.webp",
+                "../assets/products/small/product_03_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_03-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_03-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_03-03_600x840.jpeg",
+                "../assets/products/medium/product_03_01.jpeg",
+                "../assets/products/medium/product_03_02.jpeg",
+                "../assets/products/medium/product_03_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_03-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_03-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_03-03_600x840.webp",
+                "../assets/products/medium/product_03_01.webp",
+                "../assets/products/medium/product_03_02.webp",
+                "../assets/products/medium/product_03_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_03-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_03-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_03-03_800x1120.jpeg",
+                "../assets/products/large/product_03_01.jpeg",
+                "../assets/products/large/product_03_02.jpeg",
+                "../assets/products/large/product_03_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_03-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_03-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_03-03_800x1120.webp",
+                "../assets/products/large/product_03_01.webp",
+                "../assets/products/large/product_03_02.webp",
+                "../assets/products/large/product_03_03.webp"
             ],
             rebajas: true,
             novedades: false,
@@ -136,34 +136,34 @@
             descripcion: 'Colorido top a crochet con patrón de arcoíris.',
             precio: 27.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_04-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_04-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_04-03_300x420.jpeg",
+                "../assets/products/small/product_04_01.jpeg",
+                "../assets/products/small/product_04_02.jpeg",
+                "../assets/products/small/product_04_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_04-01_300x420.webp",
-                "../assets/productos/small/webp/producto_04-02_300x420.webp",
-                "../assets/productos/small/webp/producto_04-03_300x420.webp",
+                "../assets/products/small/product_04_01.webp",
+                "../assets/products/small/product_04_02.webp",
+                "../assets/products/small/product_04_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_04-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_04-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_04-03_600x840.jpeg",
+                "../assets/products/medium/product_04_01.jpeg",
+                "../assets/products/medium/product_04_02.jpeg",
+                "../assets/products/medium/product_04_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_04-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_04-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_04-03_600x840.webp",
+                "../assets/products/medium/product_04_01.webp",
+                "../assets/products/medium/product_04_02.webp",
+                "../assets/products/medium/product_04_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_04-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_04-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_04-03_800x1120.jpeg",
+                "../assets/products/large/product_04_01.jpeg",
+                "../assets/products/large/product_04_02.jpeg",
+                "../assets/products/large/product_04_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_04-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_04-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_04-03_800x1120.webp",
+                "../assets/products/large/product_04_01.webp",
+                "../assets/products/large/product_04_02.webp",
+                "../assets/products/large/product_04_03.webp"
             ],
             rebajas: true,
             novedades: false,
@@ -175,34 +175,34 @@
             descripcion: 'Top a crochet con hermosos motivos florales.',
             precio: 32.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_05-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_05-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_05-03_300x420.jpeg",
+                "../assets/products/small/product_05_01.jpeg",
+                "../assets/products/small/product_05_02.jpeg",
+                "../assets/products/small/product_05_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_05-01_300x420.webp",
-                "../assets/productos/small/webp/producto_05-02_300x420.webp",
-                "../assets/productos/small/webp/producto_05-03_300x420.webp",
+                "../assets/products/small/product_05_01.webp",
+                "../assets/products/small/product_05_02.webp",
+                "../assets/products/small/product_05_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_05-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_05-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_05-03_600x840.jpeg",
+                "../assets/products/medium/product_05_01.jpeg",
+                "../assets/products/medium/product_05_02.jpeg",
+                "../assets/products/medium/product_05_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_05-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_05-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_05-03_600x840.webp",
+                "../assets/products/medium/product_05_01.webp",
+                "../assets/products/medium/product_05_02.webp",
+                "../assets/products/medium/product_05_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_05-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_05-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_05-03_800x1120.jpeg",
+                "../assets/products/large/product_05_01.jpeg",
+                "../assets/products/large/product_05_02.jpeg",
+                "../assets/products/large/product_05_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_05-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_05-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_05-03_800x1120.webp",
+                "../assets/products/large/product_05_01.webp",
+                "../assets/products/large/product_05_02.webp",
+                "../assets/products/large/product_05_03.webp"
             ],
             rebajas: true,
             novedades: true,
@@ -214,34 +214,34 @@
             descripcion: 'Top a crochet con diseño de mariposas, ideal para primavera.',
             precio: 29.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_06-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_06-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_06-03_300x420.jpeg",
+                "../assets/products/small/product_06_01.jpeg",
+                "../assets/products/small/product_06_02.jpeg",
+                "../assets/products/small/product_06_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_06-01_300x420.webp",
-                "../assets/productos/small/webp/producto_06-02_300x420.webp",
-                "../assets/productos/small/webp/producto_06-03_300x420.webp",
+                "../assets/products/small/product_06_01.webp",
+                "../assets/products/small/product_06_02.webp",
+                "../assets/products/small/product_06_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_06-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_06-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_06-03_600x840.jpeg",
+                "../assets/products/medium/product_06_01.jpeg",
+                "../assets/products/medium/product_06_02.jpeg",
+                "../assets/products/medium/product_06_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_06-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_06-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_06-03_600x840.webp",
+                "../assets/products/medium/product_06_01.webp",
+                "../assets/products/medium/product_06_02.webp",
+                "../assets/products/medium/product_06_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_06-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_06-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_06-03_800x1120.jpeg",
+                "../assets/products/large/product_06_01.jpeg",
+                "../assets/products/large/product_06_02.jpeg",
+                "../assets/products/large/product_06_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_06-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_06-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_06-03_800x1120.webp",
+                "../assets/products/large/product_06_01.webp",
+                "../assets/products/large/product_06_02.webp",
+                "../assets/products/large/product_06_03.webp"
             ],
             rebajas: true,
             novedades: true,
@@ -253,34 +253,34 @@
             descripcion: 'Un top a crochet con tonos y patrones inspirados en el océano.',
             precio: 33.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_07-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_07-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_07-03_300x420.jpeg",
+                "../assets/products/small/product_07_01.jpeg",
+                "../assets/products/small/product_07_02.jpeg",
+                "../assets/products/small/product_07_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_07-01_300x420.webp",
-                "../assets/productos/small/webp/producto_07-02_300x420.webp",
-                "../assets/productos/small/webp/producto_07-03_300x420.webp",
+                "../assets/products/small/product_07_01.webp",
+                "../assets/products/small/product_07_02.webp",
+                "../assets/products/small/product_07_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_07-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_07-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_07-03_600x840.jpeg",
+                "../assets/products/medium/product_07_01.jpeg",
+                "../assets/products/medium/product_07_02.jpeg",
+                "../assets/products/medium/product_07_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_07-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_07-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_07-03_600x840.webp",
+                "../assets/products/medium/product_07_01.webp",
+                "../assets/products/medium/product_07_02.webp",
+                "../assets/products/medium/product_07_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_07-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_07-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_07-03_800x1120.jpeg",
+                "../assets/products/large/product_07_01.jpeg",
+                "../assets/products/large/product_07_02.jpeg",
+                "../assets/products/large/product_07_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_07-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_07-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_07-03_800x1120.webp",
+                "../assets/products/large/product_07_01.webp",
+                "../assets/products/large/product_07_02.webp",
+                "../assets/products/large/product_07_03.webp"
             ],
             rebajas: true,
             novedades: true,
@@ -292,34 +292,34 @@
             descripcion: 'Top a crochet con motivos de la selva, lleno de vida y color.',
             precio: 31.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_08-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_08-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_08-03_300x420.jpeg",
+                "../assets/products/small/product_08_01.jpeg",
+                "../assets/products/small/product_08_02.jpeg",
+                "../assets/products/small/product_08_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_08-01_300x420.webp",
-                "../assets/productos/small/webp/producto_08-02_300x420.webp",
-                "../assets/productos/small/webp/producto_08-03_300x420.webp",
+                "../assets/products/small/product_08_01.webp",
+                "../assets/products/small/product_08_02.webp",
+                "../assets/products/small/product_08_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_08-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_08-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_08-03_600x840.jpeg",
+                "../assets/products/medium/product_08_01.jpeg",
+                "../assets/products/medium/product_08_02.jpeg",
+                "../assets/products/medium/product_08_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_08-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_08-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_08-03_600x840.webp",
+                "../assets/products/medium/product_08_01.webp",
+                "../assets/products/medium/product_08_02.webp",
+                "../assets/products/medium/product_08_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_08-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_08-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_08-03_800x1120.jpeg",
+                "../assets/products/large/product_08_01.jpeg",
+                "../assets/products/large/product_08_02.jpeg",
+                "../assets/products/large/product_08_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_08-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_08-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_08-03_800x1120.webp",
+                "../assets/products/large/product_08_01.webp",
+                "../assets/products/large/product_08_02.webp",
+                "../assets/products/large/product_08_03.webp"
             ],
             rebajas: true,
             novedades: true,
@@ -331,34 +331,34 @@
             descripcion: 'Top a crochet en colores coral, perfecto para el verano.',
             precio: 26.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_09-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_09-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_09-03_300x420.jpeg",
+                "../assets/products/small/product_09_01.jpeg",
+                "../assets/products/small/product_09_02.jpeg",
+                "../assets/products/small/product_09_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_09-01_300x420.webp",
-                "../assets/productos/small/webp/producto_09-02_300x420.webp",
-                "../assets/productos/small/webp/producto_09-03_300x420.webp",
+                "../assets/products/small/product_09_01.webp",
+                "../assets/products/small/product_09_02.webp",
+                "../assets/products/small/product_09_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_09-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_09-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_09-03_600x840.jpeg",
+                "../assets/products/medium/product_09_01.jpeg",
+                "../assets/products/medium/product_09_02.jpeg",
+                "../assets/products/medium/product_09_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_09-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_09-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_09-03_600x840.webp",
+                "../assets/products/medium/product_09_01.webp",
+                "../assets/products/medium/product_09_02.webp",
+                "../assets/products/medium/product_09_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_09-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_09-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_09-03_800x1120.jpeg",
+                "../assets/products/large/product_09_01.jpeg",
+                "../assets/products/large/product_09_02.jpeg",
+                "../assets/products/large/product_09_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_09-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_09-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_09-03_800x1120.webp",
+                "../assets/products/large/product_09_01.webp",
+                "../assets/products/large/product_09_02.webp",
+                "../assets/products/large/product_09_03.webp"
             ],
             rebajas: false,
             novedades: true,
@@ -370,34 +370,34 @@
             descripcion: 'Top a crochet en tonos violeta, elegante y sofisticado.',
             precio: 35.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_10-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_10-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_10-03_300x420.jpeg",
+                "../assets/products/small/product_10_01.jpeg",
+                "../assets/products/small/product_10_02.jpeg",
+                "../assets/products/small/product_10_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_10-01_300x420.webp",
-                "../assets/productos/small/webp/producto_10-02_300x420.webp",
-                "../assets/productos/small/webp/producto_10-03_300x420.webp",
+                "../assets/products/small/product_10_01.webp",
+                "../assets/products/small/product_10_02.webp",
+                "../assets/products/small/product_10_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_10-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_10-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_10-03_600x840.jpeg",
+                "../assets/products/medium/product_10_01.jpeg",
+                "../assets/products/medium/product_10_02.jpeg",
+                "../assets/products/medium/product_10_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_10-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_10-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_10-03_600x840.webp",
+                "../assets/products/medium/product_10_01.webp",
+                "../assets/products/medium/product_10_02.webp",
+                "../assets/products/medium/product_10_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_10-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_10-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_10-03_800x1120.jpeg",
+                "../assets/products/large/product_10_01.jpeg",
+                "../assets/products/large/product_10_02.jpeg",
+                "../assets/products/large/product_10_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_10-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_10-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_10-03_800x1120.webp",
+                "../assets/products/large/product_10_01.webp",
+                "../assets/products/large/product_10_02.webp",
+                "../assets/products/large/product_10_03.webp"
             ],
             rebajas: false,
             novedades: true,
@@ -409,34 +409,34 @@
             descripcion: 'Un top a crochet suave y delicado en color lavanda.',
             precio: 34.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_11-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_11-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_11-03_300x420.jpeg",
+                "../assets/products/small/product_11_01.jpeg",
+                "../assets/products/small/product_11_02.jpeg",
+                "../assets/products/small/product_11_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_11-01_300x420.webp",
-                "../assets/productos/small/webp/producto_11-02_300x420.webp",
-                "../assets/productos/small/webp/producto_11-03_300x420.webp",
+                "../assets/products/small/product_11_01.webp",
+                "../assets/products/small/product_11_02.webp",
+                "../assets/products/small/product_11_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_11-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_11-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_11-03_600x840.jpeg",
+                "../assets/products/medium/product_11_01.jpeg",
+                "../assets/products/medium/product_11_02.jpeg",
+                "../assets/products/medium/product_11_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_11-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_11-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_11-03_600x840.webp",
+                "../assets/products/medium/product_11_01.webp",
+                "../assets/products/medium/product_11_02.webp",
+                "../assets/products/medium/product_11_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_11-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_11-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_11-03_800x1120.jpeg",
+                "../assets/products/large/product_11_01.jpeg",
+                "../assets/products/large/product_11_02.jpeg",
+                "../assets/products/large/product_11_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_11-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_11-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_11-03_800x1120.webp",
+                "../assets/products/large/product_11_01.webp",
+                "../assets/products/large/product_11_02.webp",
+                "../assets/products/large/product_11_03.webp"
             ],
             rebajas: false,
             novedades: true,
@@ -448,34 +448,34 @@
             descripcion: 'Top a crochet en color esmeralda, vibrante y llamativo.',
             precio: 36.00,
             small_imgs_jpeg: [
-                "../assets/productos/small/jpeg/producto_12-01_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_12-02_300x420.jpeg",
-                "../assets/productos/small/jpeg/producto_12-03_300x420.jpeg",
+                "../assets/products/small/product_12_01.jpeg",
+                "../assets/products/small/product_12_02.jpeg",
+                "../assets/products/small/product_12_03.jpeg"
             ],
             small_imgs_webp: [
-                "../assets/productos/small/webp/producto_12-01_300x420.webp",
-                "../assets/productos/small/webp/producto_12-02_300x420.webp",
-                "../assets/productos/small/webp/producto_12-03_300x420.webp",
+                "../assets/products/small/product_12_01.webp",
+                "../assets/products/small/product_12_02.webp",
+                "../assets/products/small/product_12_03.webp"
             ],
             medium_imgs_jpeg: [
-                "../assets/productos/medium/jpeg/producto_12-01_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_12-02_600x840.jpeg",
-                "../assets/productos/medium/jpeg/producto_12-03_600x840.jpeg",
+                "../assets/products/medium/product_12_01.jpeg",
+                "../assets/products/medium/product_12_02.jpeg",
+                "../assets/products/medium/product_12_03.jpeg"
             ],
             medium_imgs_webp: [
-                "../assets/productos/medium/webp/producto_12-01_600x840.webp",
-                "../assets/productos/medium/webp/producto_12-02_600x840.webp",
-                "../assets/productos/medium/webp/producto_12-03_600x840.webp",
+                "../assets/products/medium/product_12_01.webp",
+                "../assets/products/medium/product_12_02.webp",
+                "../assets/products/medium/product_12_03.webp"
             ],
             large_imgs_jpeg: [
-                "../assets/productos/large/jpeg/producto_12-01_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_12-02_800x1120.jpeg",
-                "../assets/productos/large/jpeg/producto_12-03_800x1120.jpeg",
+                "../assets/products/large/product_12_01.jpeg",
+                "../assets/products/large/product_12_02.jpeg",
+                "../assets/products/large/product_12_03.jpeg"
             ],
             large_imgs_webp: [
-                "../assets/productos/large/webp/producto_12-01_800x1120.webp",
-                "../assets/productos/large/webp/producto_12-02_800x1120.webp",
-                "../assets/productos/large/webp/producto_12-03_800x1120.webp",
+                "../assets/products/large/product_12_01.webp",
+                "../assets/products/large/product_12_02.webp",
+                "../assets/products/large/product_12_03.webp"
             ],
             rebajas: false,
             novedades: true,
@@ -488,6 +488,10 @@
     const productIdString = urlParams.get('id')
     const productId = parseInt(productIdString, 10)
 
+    // Obtener el producto a partir del id
+    const product = products_list.find(product => product.id === productId)
+
+    // Etiquetas html
     const article = document.querySelector('.Article')
 
     const imgsNavSmallWebp = article.querySelectorAll('.Carrusel-source--smallSmallWebp')
@@ -503,7 +507,7 @@
     const imgsLargeJpeg = article.querySelectorAll('.Carrusel-img--bigLargeJpeg')
     const imgsLargeWebp = article.querySelectorAll('.Carrusel-source--bigLargeWebp')
 
-    const product = products_list.find(product => product.id === productId)
+    
 
     // Actualizar nombre, precio y descripción
     document.getElementById('product-name').textContent = product.nombre
@@ -512,23 +516,17 @@
 
     // Acttualizar pictures de navegación
 
-
-    // Acttualizar pictures grandes
     product.small_imgs_jpeg.forEach((imgSrc, index) => {
-        imgsSmallJpeg[index].srcset = imgSrc
-        imgsSmallJpeg[index].alt = product.nombre
-
         imgsNavSmallJpeg[index].src = imgSrc
         imgsNavSmallJpeg[index].alt = product.nombre
     })
 
     product.small_imgs_webp.forEach((imgSrc, index) => {
-        imgsSmallWebp[index].srcset = imgSrc
-        imgsSmallWebp[index].alt = product.nombre
-
         imgsNavSmallWebp[index].srcset = imgSrc
         imgsNavSmallWebp[index].alt = product.nombre
     })
+
+    // Acttualizar pictures grandes
 
     product.medium_imgs_jpeg.forEach((imgSrc, index) => {
         imgsMediumJpeg[index].srcset = imgSrc
