@@ -1,7 +1,7 @@
 /* 
     Añadir productos al carrito:
     Al hacer click en algún .Description-button--buy:
-        1. obtener el producto a paertir del id del atributo product-id del .Description-button--buy
+        1. obtener el producto a paertir del id del atributo value del .Description-button--buy
         2. añadir el producto al carrito usando localStorage
         3. añadir la clase isVisible a .Alert
         4. quitarle la clase isVisible a .Alert pasados 1500ms
@@ -192,13 +192,13 @@
             exitos: false
         }
     ]
-    const buttons = document.querySelectorAll('.Description-button--buy')
+    const buttons = document.querySelectorAll('.Button-buy')
     const alert = document.querySelector('.Alert')
   
     // Función Handler
     const handleClick = (button) => () => {
         
-        const productIdString = button.getAttribute('product-id')
+        const productIdString = button.getAttribute('value')
         const productId = parseInt(productIdString, 10)
         const product = products_list.find(product => product.id === productId)
   
@@ -207,7 +207,7 @@
         let bag = JSON.parse(localStorage.getItem('bag')) || []
         bag.push(product)
         localStorage.setItem('bag', JSON.stringify(bag))
-        
+
         alert.classList.add('isVisible')
         setTimeout(function() {
             alert.classList.remove('isVisible')

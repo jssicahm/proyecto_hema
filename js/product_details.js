@@ -494,19 +494,19 @@
     // Etiquetas html
     const article = document.querySelector('.Article')
 
-    const imgsNavSmallWebp = article.querySelectorAll('.Carrusel-source--smallSmallWebp')
-    const imgsNavSmallJpeg = article.querySelectorAll('.Carrusel-img--smallSmallJpeg')
+    const imgsNavSmallWebp = article.querySelectorAll('.Carrusel-source--smallWebp')
+    const imgsNavSmallJpeg = article.querySelectorAll('.Carrusel-img--smallJpeg')
 
-    const imgsMediumJpeg = article.querySelectorAll('.Carrusel-source--bigMediumJpeg')
-    const imgsMediumWebp = article.querySelectorAll('.Carrusel-source--bigMediumWebp')
+    const imgsMediumJpeg = article.querySelectorAll('.Slider-source--mediumJpeg')
+    const imgsMediumWebp = article.querySelectorAll('.Slider-source--mediumWebp')
 
-    const imgsLargeJpeg = article.querySelectorAll('.Carrusel-img--bigLargeJpeg')
-    const imgsLargeWebp = article.querySelectorAll('.Carrusel-source--bigLargeWebp')
+    const imgsLargeJpeg = article.querySelectorAll('.Slider-img--largeJpeg')
+    const imgsLargeWebp = article.querySelectorAll('.Slider-source--largeWebp')
 
-    const button = article.querySelector('.Select-button--bag')
+    const button = article.querySelector('.Button-buy')
 
-    // Actualizar product-id del botón
-    button.setAttribute('product-id', `${product.id}`)
+    // Actualizar value del botón
+    button.setAttribute('value', `${product.id}`)
 
     // Actualizar nombre, precio y descripción
     document.getElementById('product-name').textContent = product.nombre
@@ -552,17 +552,17 @@
 
 /* 
     Carrusel de imágenes:
-    Al hacer click en alguna .Carrusel-picture--small:
-        1. remove .isActive del resto de .Carrusel-picture--small
-        2. add .isActive al .Carrusel-picture--small en cuestión
-        3. .Carrusel-content translateY imgHeight * posicion de .Carrusel-picture--small en cuestión
+    Al hacer click en alguna .Carrusel-picture:
+        1. remove .isActive del resto de .Carrusel-picture
+        2. add .isActive al .Carrusel-picture en cuestión
+        3. .Content-slider' translateY imgHeight * posicion de .Carrusel-picture--small en cuestión
  */
 (() => {
 
     // Constantes
     const carousel = document.querySelector('.Carrusel')
-    const carouselContent = carousel.querySelector('.Carrusel-content')
-    const carruselSmall = carousel.querySelectorAll('.Carrusel-picture--small')
+    const carouselContent = carousel.querySelector('.Content-slider')
+    const carruselSmall = carousel.querySelectorAll('.Carrusel-picture')
 
     let imgHeight = 100/3
 
@@ -582,6 +582,73 @@
     carruselSmall.forEach((img, index) =>{
         img.addEventListener('click', handleClick(index))
     })
+
+})();
+
+/* 
+    Carrusel de imágenes:
+    Al hacer click en Content-button--up:
+        1. .Content-slider' translateY anterior
+    Al hacer click en Content-button--down:
+        1. .Content-slider' translateY siguiente
+ */
+(() => {
+
+    // Constantes
+    const carousel = document.querySelector('.Carrusel')
+    const carouselContent = carousel.querySelector('.Content-slider')
+    const carruselSmall = carousel.querySelectorAll('.Carrusel-picture')
+    const buttonUp = carousel.querySelector('.Content-button--up')
+    const buttonDown = carousel.querySelector('.Content-button--down')
+
+    // Variables
+    let imgHeight = 100/3
+    let pos = 0
+
+    // // Determinar cual es la posición de la img visible
+    // carruselSmall.forEach((carrusel, index) =>{
+    //     if (carrusel.classList.contains('isActive')) {
+    //         pos = index
+    //     }
+    // })
+
+    const previous = () => {
+        console.log('previous')
+        console.log(`la posicion es ${pos}`)
+
+        pos--
+        if (pos >= 0) {
+            carouselContent.style.transform = `translateY(-${imgHeight * pos}%)`
+        } 
+        
+        if (pos == 0) {
+            buttonUp.classList.add('isNotVisible')
+        }
+        
+        console.log(`se traslado -${imgHeight * pos} pq la ps es ${pos}`)
+        
+    }
+
+    const next = () => {
+        console.log('next')
+        console.log(`la posicion es ${pos}`)
+
+        pos++
+        if (pos < 3) {
+            carouselContent.style.transform = `translateY(-${imgHeight * pos}%)`
+        }
+        if (3 - pos == 1) {
+            console.log('ya no se puede mas')
+            buttonDown.classList.add('isNotVisible')
+        }
+
+        console.log(`se traslado -${imgHeight * pos} pq la ps es ${pos}`)
+        
+    }
+
+    // Eventos
+    buttonUp.addEventListener('click', previous)
+    buttonDown.addEventListener('click', next)
 
 })();
 

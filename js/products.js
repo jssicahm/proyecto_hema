@@ -4,6 +4,34 @@
  */
 
 /* 
+    Cuando el ancho de la venatna sea menor que 768px (ya sea cuando se cargue o cuando se redimensione):
+        1. display: none a los .Titles-a que no tengan la clase isActive
+ */
+(() => {
+
+    // Constantes
+    const titles = document.querySelector('.Titles')
+    const titlesLinks = titles.querySelectorAll('.Titles-a')
+
+    // Función Handler
+    const handleResize = () => {
+        if (window.innerWidth <= 768) {
+            titlesLinks.forEach(link => {
+                !link.classList.contains('isActive') && (link.style.display = 'none')
+            })
+        } else {
+            titlesLinks.forEach(link => {
+                link.style.display = ''
+            })
+        }
+    }
+
+    // Eventos
+    window.addEventListener('resize', handleResize)
+    window.addEventListener('load', handleResize)
+})();
+
+/* 
     Añadir dinamicamente los productos a las pestañas correspondientes, para ello:
         1. se recorre la products_list que es una lista de objetos
         2. se crea el .Article que se insertará en .Grid--sales, .Grid--news, .Grid--hits o .Grid--all
@@ -218,7 +246,7 @@
                 <p class="Description-p">
                     ${product.precio} €
                 </p>
-                <button class="Description-button Description-button--buy u-button-style" title="Añadir al carrito" product-id = ${product.id}>
+                <button class="Description-button Button Button-buy u-button-style" title="Añadir al carrito" value = ${product.id}>
                     Añadir
                 </button>
             </div>
@@ -352,45 +380,3 @@
         title.addEventListener('click', handleClick(index))
     })
 })();
-
-
-/* 
-    Cuando el ancho de la venatna sea menor que 768px:
-        1. display: none a los .Titles-a que no tengan la clase isActive
- */
-(() => {
-
-    // Constantes
-    const titles = document.querySelector('.Titles')
-    const titlesLinks = titles.querySelectorAll('.Titles-a')
-
-    // Función Handler
-    const handleResize = () => {
-        if (window.innerWidth <= 768) {
-            titlesLinks.forEach(link => {
-                !link.classList.contains('isActive') && (link.style.display = 'none')
-            })
-        } else {
-            titlesLinks.forEach(link => {
-                link.style.display = ''
-            })
-        }
-    }
-
-    // Eventos
-    window.addEventListener('resize', handleResize)
-})();
-
-
-
-
-
-
-
-
-
-
-
-
-
-

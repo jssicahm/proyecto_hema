@@ -99,8 +99,6 @@
 /* Producto */
 
 .Article {
-    border-radius: 1rem;
-    border: 1px solid var(--decoration-color);
     position: relative;
     overflow: hidden;
 }
@@ -115,7 +113,7 @@
     width: 100%;
     padding: .625rem 1.25rem;
 
-    border-top: 1px solid var(--decoration-color);
+    border: 1px solid var(--decoration-color);
     background-color: var(--bg-color);
 
     z-index: 1;
@@ -143,7 +141,7 @@
     text-align: end;
 }
 
-.Description-button--buy  {
+.Button-buy  {
     grid-column: span 4;
 }
 
