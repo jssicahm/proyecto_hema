@@ -69,7 +69,7 @@
 
 /* 
     Mostrar los productos en el carrito
-    PD: me apoyé en ChatGPT para hacerlo usando localStorage
+    PD: me apoyé en documentacion de Internet para hacerlo usando localStorage
  */
 (() => {
     const grid = document.querySelector('.Grid--shop')
@@ -93,20 +93,17 @@
         
             <!-- Toda la información -->
             <div class="Article-content">
-                
-                <!-- Nombre  -->
-                <h3 class="Article-h3">
-                    ${product.nombre}
-                </h3>
         
                 <!-- Precio -->
-                <span class="Article-price">
-                    ${product.precio}
+                <span class="Article-span">
+                    <span class="Article-price">
+                        ${product.precio}
+                    </span>
+                    <span class="Article-euro">
+                        €
+                    </span>
                 </span>
-                <span class="Article-euro">
-                     €
-                </span>
-        
+                
                 <!-- Eliminar artículo -->
                 <button class="Article-button Article-button--delete u-button-style" title="Añadir al carrito">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="Article-svg" viewBox="0 0 16 16">
@@ -168,8 +165,12 @@
         totalPriceNum = totalPriceNum - priceNum
         document.getElementById('total-price').textContent = `${totalPriceNum}`
 
-        article.remove()
+        // Eliminar el artículo del localStorage
+        let bag = JSON.parse(localStorage.getItem('bag')) || []
+        bag.splice(index, 1) // Elimina el artículo del array
+        localStorage.setItem('bag', JSON.stringify(bag)) // Actualiza el localStorage
 
+        article.remove()
     }
 
     // Eventos

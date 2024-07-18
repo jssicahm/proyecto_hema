@@ -597,7 +597,7 @@
     // Constantes
     const carousel = document.querySelector('.Carrusel')
     const carouselContent = carousel.querySelector('.Content-slider')
-    const carruselSmall = carousel.querySelectorAll('.Carrusel-picture')
+
     const buttonUp = carousel.querySelector('.Content-button--up')
     const buttonDown = carousel.querySelector('.Content-button--down')
 
@@ -605,17 +605,12 @@
     let imgHeight = 100/3
     let pos = 0
 
-    // // Determinar cual es la posición de la img visible
-    // carruselSmall.forEach((carrusel, index) =>{
-    //     if (carrusel.classList.contains('isActive')) {
-    //         pos = index
-    //     }
-    // })
+    buttonUp.classList.add('isNotVisible')
 
     const previous = () => {
-        console.log('previous')
-        console.log(`la posicion es ${pos}`)
-
+        if (buttonDown.classList.contains('isNotVisible')) {
+            buttonDown.classList.remove('isNotVisible')
+        }
         pos--
         if (pos >= 0) {
             carouselContent.style.transform = `translateY(-${imgHeight * pos}%)`
@@ -624,26 +619,20 @@
         if (pos == 0) {
             buttonUp.classList.add('isNotVisible')
         }
-        
-        console.log(`se traslado -${imgHeight * pos} pq la ps es ${pos}`)
-        
     }
 
     const next = () => {
-        console.log('next')
-        console.log(`la posicion es ${pos}`)
+        if (buttonUp.classList.contains('isNotVisible')) {
+            buttonUp.classList.remove('isNotVisible')
+        }
 
         pos++
         if (pos < 3) {
             carouselContent.style.transform = `translateY(-${imgHeight * pos}%)`
         }
         if (3 - pos == 1) {
-            console.log('ya no se puede mas')
             buttonDown.classList.add('isNotVisible')
         }
-
-        console.log(`se traslado -${imgHeight * pos} pq la ps es ${pos}`)
-        
     }
 
     // Eventos
