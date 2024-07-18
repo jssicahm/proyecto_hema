@@ -141,6 +141,8 @@
 
 .Grid-a {
     margin: .5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--decoration-color);
     overflow: hidden;
 }
 

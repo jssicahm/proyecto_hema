@@ -3,7 +3,9 @@
     Al hacer click en algún .Description-button--buy:
         1. obtener el producto a paertir del id del atributo product-id del .Description-button--buy
         2. añadir el producto al carrito usando localStorage
-    PD: me apoyé en ChatGPT para hacerlo usando localStorage
+        3. añadir la clase isVisible a .Alert
+        4. quitarle la clase isVisible a .Alert pasados 1500ms
+    PD: me apoyé en documentación de Internet para hacerlo usando localStorage
  */
 (() => {
 
@@ -191,6 +193,7 @@
         }
     ]
     const buttons = document.querySelectorAll('.Description-button--buy')
+    const alert = document.querySelector('.Alert')
   
     // Función Handler
     const handleClick = (button) => () => {
@@ -199,13 +202,16 @@
         const productId = parseInt(productIdString, 10)
         const product = products_list.find(product => product.id === productId)
   
-        // Esta parte me apoyé en ChatGPT
         // localStorage.getItem('bag'): Recupera el valor almacenado en el localStorage bajo la clave 'bag'.
         // JSON.parse(...): Convierte el JSON almacenado en localStorage de nuevo a un objeto de JavaScript.
         let bag = JSON.parse(localStorage.getItem('bag')) || []
         bag.push(product)
         localStorage.setItem('bag', JSON.stringify(bag))
-        alert('Producto agregado al carrito')
+        
+        alert.classList.add('isVisible')
+        setTimeout(function() {
+            alert.classList.remove('isVisible')
+        }, 1500)
     }
 
     // Eventos

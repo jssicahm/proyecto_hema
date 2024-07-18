@@ -9,6 +9,27 @@
 
 .Main {
     padding: 5.75rem 0 2rem;
+    position: relative;
+}
+
+/* ALERT */
+
+.Alert {
+    padding: 1.25rem 2.5rem;
+    color: var(--bg-color);
+    background-color: var(--sucess-color);
+
+    position: fixed;
+    right: 5rem;
+    top: 4rem;
+    z-index: 2;
+
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.Alert.isVisible {
+    opacity: 1;
 }
 
 /* CONTAINER */
@@ -40,7 +61,7 @@
 
 .Titles-a:hover{
     cursor: pointer;
-    color: var(--decoration-color);
+    color: var(--decoration-color-light);
 }
 
 .Titles-a.isActive{
@@ -78,6 +99,8 @@
 /* Producto */
 
 .Article {
+    border-radius: 1rem;
+    border: 1px solid var(--decoration-color);
     position: relative;
     overflow: hidden;
 }
@@ -92,8 +115,8 @@
     width: 100%;
     padding: .625rem 1.25rem;
 
-    background-color: var(--decoration-color);
-    color: var(--bg-color);
+    border-top: 1px solid var(--decoration-color);
+    background-color: var(--bg-color);
 
     z-index: 1;
 
@@ -115,22 +138,13 @@
 }
 
 .Description-p {
+    font-family: 'Raleway-600', sans-serif;
+    color: var(--decoration-color);
     text-align: end;
 }
 
-.Description-button {
-    padding: .625rem 1.25rem;
-    background-color: transparent;
-    color: var(--bg-color);
-    border: 1px solid var(--bg-color);
-    transition: background-color .25s ease, color .25s ease;
-    
-}
-
-.Description-button:hover {
-    cursor: pointer;
-    background-color: var(--bg-color);
-    color: var(--decoration-color);
+.Description-button--buy  {
+    grid-column: span 4;
 }
 
 /* @MEDIA */
@@ -143,16 +157,9 @@
 }
 
 @media (max-width:768px){
-    .Main {
-        padding: 1rem 0 2rem;
-    }
 
     .Grid{
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .Titles{
-        display: none;
     }
 
     .Description{

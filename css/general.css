@@ -64,9 +64,10 @@ p , strong , em , mark , a {
     font-size: 100%;
 
     --bg-color: #FEFEFD;
-    --text-color: #4A4A4A;
-    --decoration-color: #fb6f92;
-    --decoration-color-light: #ffe5ec;
+    --text-color: #2f2f2f;
+    --decoration-color: #da2865;
+    --decoration-color-light: #f3a6be;
+    --sucess-color: #6d9f71;
 }
 
 /* FONT FACE */
@@ -349,12 +350,13 @@ body {
 
 .Footer {
     border-top: 1px solid var(--decoration-color);
-    padding: 5rem;
+    padding: 5rem 8rem;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: start
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-items: start;
+    gap: 4rem
 }
 
 .Footer-h3 {
@@ -397,23 +399,6 @@ body {
 
 /* @MEDIA */
 
-@media (max-width:1024px) {
-
-    .Footer {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .Footer-section--logo {
-        display: none;
-    }
-}
-
-@media (max-width:850px) {
-    .Footer {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width:768px) {
 
     .Nav--clothes {
@@ -430,9 +415,6 @@ body {
 }
 
 @media (max-width:580px) {
-    .Footer {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .Footer-a--contact {
         display: none;

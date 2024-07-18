@@ -218,12 +218,12 @@
                 <p class="Description-p">
                     ${product.precio} €
                 </p>
-                <button class="Description-button Description-button--buy" title="Añadir al carrito" product-id = ${product.id}>
+                <button class="Description-button Description-button--buy u-button-style" title="Añadir al carrito" product-id = ${product.id}>
                     Añadir
                 </button>
             </div>
 
-            <a href="product_details.html?id=${product.id}" class="Article-a" title="Ver producto">
+            <a href="product_details.html?id=${product.id}" class="Article-a" title="Ir a detalles del producto">
                 <picture class="Grid-picture">
                     <source srcset="${product.small_imgs_webp}" type="image/webp" media="(max-width:650px)">
                     <source srcset="${product.small_imgs_jpeg}" type="image/jpeg" media="(max-width:650px)">
@@ -352,6 +352,35 @@
         title.addEventListener('click', handleClick(index))
     })
 })();
+
+
+/* 
+    Cuando el ancho de la venatna sea menor que 768px:
+        1. display: none a los .Titles-a que no tengan la clase isActive
+ */
+(() => {
+
+    // Constantes
+    const titles = document.querySelector('.Titles')
+    const titlesLinks = titles.querySelectorAll('.Titles-a')
+
+    // Función Handler
+    const handleResize = () => {
+        if (window.innerWidth <= 768) {
+            titlesLinks.forEach(link => {
+                !link.classList.contains('isActive') && (link.style.display = 'none')
+            })
+        } else {
+            titlesLinks.forEach(link => {
+                link.style.display = ''
+            })
+        }
+    }
+
+    // Eventos
+    window.addEventListener('resize', handleResize)
+})();
+
 
 
 

@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Catálogo de productos">
-    <title>Catálogo de productos</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Hema</title>
+    <meta name="title" content="Hema">
+    <meta name="description" content="Tienda ropa a chrochet">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jssicahm.github.io/proyecto_hema/">
+    <meta property="og:title" content="Hema">
+    <meta property="og:description" content="Tienda ropa a chrochet">
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jssicahm.github.io/proyecto_hema/">
+    <meta property="twitter:title" content="Hema">
+    <meta property="twitter:description" content="Tienda ropa a chrochet">
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <link rel="icon" href="../assets/hema/favicon.ico" type="image/x-icon">
+
     <!-- css -->
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/products.css">
+
      <!-- js -->
     <script src="../js/general.js" defer></script>
     <script src="../js/products.js" defer></script>
@@ -25,14 +49,14 @@
             <div class="Header-buttons">
 
                 <!-- Menú hamburguesa abrir-->
-                <button class="Header-button Header-button--open isVisible" title="Abrir">
+                <button class="Header-button Header-button--open isVisible" title="Abrir el menú lateral">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="Header-svg" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                     </svg>
                 </button>
 
                 <!-- Menú hamburguesa cerrar-->
-                <button class="Header-button Header-button--close" title="Cerrar">
+                <button class="Header-button Header-button--close" title="Cerrar el menú lateral">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="Header-svg" viewBox="0 0 16 16">
                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
                     </svg>
@@ -41,7 +65,7 @@
 
             <!-- Logo -->
             <h1 class="Header-h1">
-                <a href="../index.html" class="Header-a" title="Hema">
+                <a href="../index.html" class="Header-a" title="Ir a Hema">
                     Hema
                 </a>
             </h1>
@@ -50,19 +74,31 @@
         <!-- Menú de navegación páginas de interés-->
         <nav class="Header-nav Nav Nav--user">
 
-            <a href="profile.html?name=profile" class="Nav-a Nav-a--user Nav-a--userIcon" title="Ir a Perfil">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                </svg>
-            </a>
-
-            <ul class="Nav-ul Nav-ul--user">
+            <!-- Texto -->
+            <ul class="Nav-ul Nav-ul--user Nav-ul--userText">
                 <li class="Nav-li Nav-li--user">
                     <a href="profile.html?name=profile" class="Nav-a Nav-a--user" title="Ir a Perfil">Perfil</a>
                 </li>
                 <li class="Nav-li Nav-li--user">
                     <a href="profile.html?name=bag" class="Nav-a Nav-a--user" title="Ir a la Cesta">Cesta</a>
+                </li>
+            </ul>
+
+            <!-- Iconos -->
+            <ul class="Nav-ul Nav-ul--user Nav-ul--userIcon">
+                <li class="Nav-li Nav-li--user">
+                    <a href="profile.html?name=profile" class="Nav-a Nav-a--user Nav-a--userIcon" title="Ir a Perfil">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="Nav-svg" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="Nav-li Nav-li--user">
+                    <a href="profile.html?name=bag" class="Nav-a Nav-a--user Nav-a--userIcon" title="Ir a la Cesta">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="Nav-svg" viewBox="0 0 16 16">
+                            <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                        </svg>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -71,16 +107,16 @@
         <nav class="Header-nav Nav Nav--clothes">
             <ul class="Nav-ul Nav-ul--clothes">
                 <li class="Nav-li Nav-li--clothes">
-                    <a href="products.html?name=rebajas" class="Nav-a Nav-a--clothes isActive" title="Rebajas">Rebajas</a>
+                    <a href="products.html?name=rebajas" class="Nav-a Nav-a--clothes isActive" title="Ir a Rebajas">Rebajas</a>
                 </li>
                 <li class="Nav-li Nav-li--clothes">
-                    <a href="products.html?name=novedades" class="Nav-a Nav-a--clothes" title="Novedades">Novedades</a>
+                    <a href="products.html?name=novedades" class="Nav-a Nav-a--clothes" title="Ir a Novedades">Novedades</a>
                 </li>
                 <li class="Nav-li Nav-li--clothes">
-                    <a href="products.html?name=exitos" class="Nav-a Nav-a--clothes" title="Lo más vendido">Lo más vendido</a>
+                    <a href="products.html?name=exitos" class="Nav-a Nav-a--clothes" title="Ir a Lo más vendido">Lo más vendido</a>
                 </li>
                 <li class="Nav-li Nav-li--clothes">
-                    <a href="products.html?name=todo" class="Nav-a Nav-a--clothes" title="Todo">Todo</a>
+                    <a href="products.html?name=todo" class="Nav-a Nav-a--clothes" title="Ir a Todo">Todo</a>
                 </li>
 
             </ul>
@@ -89,6 +125,13 @@
     </header>
 
     <main class="Main">
+
+        <!-- Alert -->
+        <div class="Main-alert Alert">
+            <span class="Alert-msg">
+                Producto añadido al carrito.
+            </span>
+        </div>
 
         <!-- Tabs -->
         <div class="Main-container Container">
@@ -148,16 +191,16 @@
             <nav class="Footer-nav">
                 <ul class="Footer-ul">
                     <li class="Footer-li">
-                        <a href="help.html#measure" class="Footer-a" title="Cómo tomar medidas">Cómo tomar medidas</a>
+                        <a href="help.html#measure" class="Footer-a" title="Ir a Cómo tomar medidas">Cómo tomar medidas</a>
                     </li>
                     <li class="Footer-li">
-                        <a href="help.html#buy" class="Footer-a" title="Cómo comprar">Cómo comprar</a>
+                        <a href="help.html#buy" class="Footer-a" title="Ir a Cómo comprar">Cómo comprar</a>
                     </li>
                     <li class="Footer-li">
-                        <a href="help.html#shipments" class="Footer-a" title="Envío">Envío</a>
+                        <a href="help.html#shipments" class="Footer-a" title="Ir a Envío">Envío</a>
                     </li>
                     <li class="Footer-li">
-                        <a href="help.html#returns" class="Footer-a" title="Cambios y devoluciones">Cambios y devoluciones</a>
+                        <a href="help.html#returns" class="Footer-a" title="Ir a Cambios y devoluciones">Cambios y devoluciones</a>
                     </li>
                 </ul>
             </nav>
