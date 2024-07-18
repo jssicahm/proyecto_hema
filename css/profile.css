@@ -13,7 +13,7 @@
 
 /* CONTAINER */
 
-.Container{
+.Container {
     width: 100%;
     position: relative;
     z-index: 1;
@@ -120,10 +120,79 @@
     right: 0;
 }
 
+/* Favoritos */
+
+.Grid {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.Article {
+    border: 1px solid var(--decoration-color);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.Article-content {
+    padding: 3rem 1rem 1rem;
+    border-top: 1px solid var(--decoration-color);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: start;
+
+    position: relative;
+}
+
+.Article-h3 {
+    margin: 0 0 1.5rem 0;
+}
+
+.Article-price {
+    font-family: 'Raleway-600', sans-serif;
+}
+
+.Article-button--delete {
+    position: absolute;
+    top: .25rem;
+    right: .25rem;
+
+    padding: .5rem;
+}
+
+.Article-svg {
+    width: 1.5rem;
+}
+
+.Comprar {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.Comprar-total {
+    padding: .625rem 1.25rem;
+    border: 1px solid var(--decoration-color);
+}
+
 /* @MEDIA */
 
 @media (max-width:1024px){
     .Div-form {
+        width: 70%;
+    }
+
+    .Article {
         width: 70%;
     }
     

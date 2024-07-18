@@ -133,18 +133,6 @@
     color: var(--decoration-color);
 }
 
-.Description-button--buy {
-    grid-column: span 3;
-}
-
-.Description-button--fav {
-    margin: auto;
-}
-
-.Description-svg {
-    width: 1.5rem;
-}
-
 /* @MEDIA */
 
 @media (max-width:1024px){

@@ -11,6 +11,7 @@
      <!-- js -->
     <script src="../js/general.js" defer></script>
     <script src="../js/profile.js" defer></script>
+    <script src="../js/shop.js" defer></script>
 </head>
 <body>
 
@@ -61,9 +62,6 @@
                     <a href="profile.html?name=profile" class="Nav-a Nav-a--user" title="Ir a Perfil">Perfil</a>
                 </li>
                 <li class="Nav-li Nav-li--user">
-                    <a href="profile.html?name=favorites" class="Nav-a Nav-a--user isActive" title="Ir a Favoritos">Favoritos</a>
-                </li>
-                <li class="Nav-li Nav-li--user">
                     <a href="profile.html?name=bag" class="Nav-a Nav-a--user" title="Ir a la Cesta">Cesta</a>
                 </li>
             </ul>
@@ -101,9 +99,6 @@
                     <a href="profile.html?name=profile" class="Titles-a" title="Ir a Rebajas">Perfil</a>
                 </h2>
                 <h2 class="Titles-h2">
-                    <a href="profile.html?name=favorites" class="Titles-a" title="Ir a Novedades">Favoritos</a>
-                </h2>
-                <h2 class="Titles-h2">
                     <a href="profile.html?name=bag" class="Titles-a" title="Ir a Lo más vendido">Carrito</a>
                 </h2>
             </div>
@@ -115,7 +110,7 @@
                 <div class="Container-div Div Div--profile p-absolute p-absolute-top isVisible">
 
                     <!-- Formulario -->
-                    <form class="Div-form Form" id="registrationForm">
+                    <form class="Div-form Form" id="registrationForm" method="post">
 
                         <h2 class="Form-h2">Información general:</h2>
 
@@ -187,14 +182,24 @@
                     
                 </div>
 
-                <!-- Favoritos -->
-                <div class="Container-div Div Div--favorites p-absolute p-absolute-top">
-                    <!-- Los artículos se añaden dinámicamente en el profile.js -->
-                </div>
-
-                <!-- Éxitos -->
+                <!-- Carrito -->
                 <div class="Container-div Div Div--bag p-absolute p-absolute-top">
-                    <!-- Los artículos se añaden dinámicamente en el profile.js -->
+
+                    <div class="Div-grid Grid Grid--shop">
+                        <!-- Los artículos se añaden dinámicamente en el profile.js -->
+                    </div>
+
+                    <div class="Div-comprar Comprar">
+                        <span class="Comprar-total">
+                            <span class="Comprar-text">Total: </span>
+                            <span class="Comprar-price" id="total-price">0 €</span>
+                        </span>
+                        <button class="Comprar-button u-button-style" title="Finalizar compra">
+                            Comprar
+                        </button>
+                    </div>
+                    
+
                 </div>
 
             </div>

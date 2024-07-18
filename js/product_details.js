@@ -496,10 +496,6 @@
 
     const imgsNavSmallWebp = article.querySelectorAll('.Carrusel-source--smallSmallWebp')
     const imgsNavSmallJpeg = article.querySelectorAll('.Carrusel-img--smallSmallJpeg')
-    
-
-    const imgsSmallJpeg = article.querySelectorAll('.Carrusel-source--bigSmallJpeg')
-    const imgsSmallWebp = article.querySelectorAll('.Carrusel-source--bigSmallWebp')
 
     const imgsMediumJpeg = article.querySelectorAll('.Carrusel-source--bigMediumJpeg')
     const imgsMediumWebp = article.querySelectorAll('.Carrusel-source--bigMediumWebp')
@@ -507,12 +503,15 @@
     const imgsLargeJpeg = article.querySelectorAll('.Carrusel-img--bigLargeJpeg')
     const imgsLargeWebp = article.querySelectorAll('.Carrusel-source--bigLargeWebp')
 
-    
+    const button = article.querySelector('.Select-button--bag')
+
+    // Actualizar product-id del botón
+    button.setAttribute('product-id', `${product.id}`)
 
     // Actualizar nombre, precio y descripción
     document.getElementById('product-name').textContent = product.nombre
     document.getElementById('product-description').textContent = product.descripcion
-    document.getElementById('product-price').textContent = `${product.precio.toFixed(2)} €`
+    document.getElementById('product-price').textContent = `${product.precio.toFixed(2)}`
 
     // Acttualizar pictures de navegación
 

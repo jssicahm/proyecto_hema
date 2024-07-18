@@ -181,6 +181,7 @@ body {
 }
 
 .u-button-style:hover {
+    cursor: pointer;
     background-color: var(--decoration-color);
     color: var(--bg-color);
 }
