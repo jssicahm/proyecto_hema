@@ -65,7 +65,8 @@ p , strong , em , mark , a {
 
     --bg-color: #FEFEFD;
     --text-color: #4A4A4A;
-    --decoration-color: #9e2a2b;
+    --decoration-color: #fb6f92;
+    --decoration-color-light: #ffe5ec;
 }
 
 /* FONT FACE */
@@ -247,6 +248,10 @@ body {
     position: absolute;
 }
 
+.Header-svg {
+    width: 1.5rem;
+}
+
 /* Logo */
 
 .Header-h1 {
@@ -270,9 +275,16 @@ body {
     gap: 2rem;
 }
 
+.Nav-ul--userText {
+    font-family: 'Raleway-600', sans-serif;
+}
+
+.Nav-ul--userIcon {
+    display: none;
+}
+
 .Nav-a--userIcon {
     width: 1.25rem;
-    display: none;
 }
 
 /* Menú de navegación ropa */
@@ -280,7 +292,7 @@ body {
 .Nav--clothes {
     width: 40%;
     height: 100vh;
-    padding: 5rem 0 5rem 7.5rem;
+    padding: 5rem 0 5rem 7.9rem;
     background-color: var(--bg-color);
 
     position: fixed;
@@ -288,7 +300,7 @@ body {
     left: 0rem;
     z-index: 1;
 
-    transform: translateX(-1000px);
+    transform: translateX(-62.5rem);
     transition: transform .25s ease-in-out;
 }
 
@@ -341,8 +353,8 @@ body {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 3rem;
+    justify-items: center;
+    align-items: start
 }
 
 .Footer-h3 {
@@ -408,12 +420,12 @@ body {
         width: 60%;
     }
 
-    .Nav-ul--user {
+    .Nav-ul--userText {
         display: none;
     }
 
-    .Nav-a--userIcon {
-        display: block;
+    .Nav-ul--userIcon {
+        display: flex;
     }
 }
 
@@ -438,7 +450,8 @@ body {
     }
 
     .Nav--clothes {
-        width: 90%;
+        width: 100%;
+        padding: 5rem 0 5rem 4.3rem;
     }
 
     .Footer {

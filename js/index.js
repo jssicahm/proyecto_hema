@@ -45,13 +45,11 @@
 /*
     Se añade la clase .isVisible a los .Article-title 
     a medida que van apareciendo en pantalla.
-    Y se añade la clase .bg-color a .Header
  */
 (() => {
 
     // Constante
     const titlesSecondary = document.querySelectorAll('.Article-title')
-    const header = document.querySelector('.Header')
 
     // Función Handler
     const handleShowTitle = () => {
@@ -61,8 +59,6 @@
             const titleTop = title.getBoundingClientRect().top
             titleTop < innerHeightWindows && title.classList.add('isVisible')
         })
-
-        header.classList.add('bg-color')
     }
 
     // Evento
@@ -72,27 +68,23 @@
 
 
 /*
-    Se le añade la clase .isVisible a .Section-img y .Section-paragraph
+    Se le añade la clase .isVisible a .Section-p
     a medida que aparecen en pantalla.
  */
 (() => {
 
         // Constante
         const articleContent = document.querySelector('.Article-content')
-
-        const sections = articleContent.querySelectorAll('.Section')
-        const imgs = articleContent.querySelectorAll('.Section-img')
-        const paragraphs = articleContent.querySelectorAll('.Section-paragraph')
+        const paragraphs = articleContent.querySelectorAll('.Section-p')
 
         // Función Handler
         const handleShowSection = () => {
             const innerHeightWindows = window.innerHeight
 
-            sections.forEach((section, index) => {
-                const sectionTop = section.getBoundingClientRect().top
+            paragraphs.forEach((paragraph, index) => {
+                const paragraphTop = paragraph.getBoundingClientRect().top
                 
-                if (sectionTop < innerHeightWindows) {
-                    imgs[index].classList.add('isVisible')
+                if (paragraphTop < innerHeightWindows) {
                     paragraphs[index].classList.add('isVisible')
                 }
 

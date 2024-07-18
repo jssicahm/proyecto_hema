@@ -123,25 +123,25 @@
 /* 
     Calcular total del carrito
  */
-    (() => {
+(() => {
 
-        // Constantes
-        
-        const bag = document.querySelector('.Div--bag')
-        const prices = bag.querySelectorAll('.Article-price')
-        console.log(prices)
+    // Constantes
     
-        // Variables
-        let totalPrice = 0
-    
-        prices.forEach(price =>{
-            const priceNum = parseInt(price.innerText, 10)
-            totalPrice = totalPrice + priceNum
-        })
-    
-        document.getElementById('total-price').textContent = `${totalPrice}`
-    
-    })();
+    const bag = document.querySelector('.Div--bag')
+    const prices = bag.querySelectorAll('.Article-price')
+    console.log(prices)
+
+    // Variables
+    let totalPrice = 0
+
+    prices.forEach(price =>{
+        const priceNum = parseInt(price.innerText, 10)
+        totalPrice = totalPrice + priceNum
+    })
+
+    document.getElementById('total-price').textContent = `${totalPrice}`
+
+})();
 
 /* 
     Eliminar productos del carrito cuando click en .Article-button--delete:
