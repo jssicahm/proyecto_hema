@@ -415,7 +415,7 @@ body {
 
 @media (max-width:580px) {
 
-    .Footer-a--contact {
+    .Footer-span {
         display: none;
     }
 
