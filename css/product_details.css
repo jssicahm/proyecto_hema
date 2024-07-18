@@ -97,7 +97,7 @@
 
 .Content-button {
     background-color: transparent;
-    color: var(--decoration-color);
+    color: var(--bg-color);
 
     position: absolute;
     left: calc(50% - 12px);
@@ -116,7 +116,7 @@
 }
 
 .Content-svg {
-    width: 24px;
+    width: 1.5rem;
 }
 
 .Content-slider {

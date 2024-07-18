@@ -23,10 +23,20 @@
 
 .Article {
     margin: 0 0 2rem 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 .Article-h2 {
+    color: var(--decoration-color);
     margin: 0 0 1rem 0;
     font-family: "Raleway-500";
-    font-size: 1.125rem;
+}
+
+.Article-h3 {
+    margin: 1rem 0 1rem;
+}
+
+.Article-li {
+    margin: .5rem 0 .5rem 2rem;
 }

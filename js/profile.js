@@ -142,8 +142,9 @@
 
 /* 
     Eliminar productos del carrito cuando click en .Article-button--delete:
-        1. se remove el .Article correspondiente
+        1. se remove el .Article correspondiente del html y del localStorage
         2. se actualiza el precio total
+    PD: me apoyé en documentación Internet para usar localStorage
  */
 (() => {
 
@@ -167,8 +168,8 @@
 
         // Eliminar el artículo del localStorage
         let bag = JSON.parse(localStorage.getItem('bag')) || []
-        bag.splice(index, 1) // Elimina el artículo del array
-        localStorage.setItem('bag', JSON.stringify(bag)) // Actualiza el localStorage
+        bag.splice(index, 1)                                // Elimina el artículo del array
+        localStorage.setItem('bag', JSON.stringify(bag))    // Actualiza el localStorage
 
         article.remove()
     }
