@@ -101,7 +101,10 @@
         
                 <!-- Precio -->
                 <span class="Article-price">
-                    ${product.precio} €
+                    ${product.precio}
+                </span>
+                <span class="Article-euro">
+                     €
                 </span>
         
                 <!-- Eliminar artículo -->
@@ -118,18 +121,55 @@
 })();
 
 /* 
-    Eliminar productos del carrito
+    Calcular total del carrito
+ */
+    (() => {
+
+        // Constantes
+        
+        const bag = document.querySelector('.Div--bag')
+        const prices = bag.querySelectorAll('.Article-price')
+        console.log(prices)
+    
+        // Variables
+        let totalPrice = 0
+    
+        prices.forEach(price =>{
+            const priceNum = parseInt(price.innerText, 10)
+            totalPrice = totalPrice + priceNum
+        })
+    
+        document.getElementById('total-price').textContent = `${totalPrice}`
+    
+    })();
+
+/* 
+    Eliminar productos del carrito cuando click en .Article-button--delete:
+        1. se remove el .Article correspondiente
+        2. se actualiza el precio total
  */
 (() => {
 
     // Constantes
     const articles = document.querySelectorAll('.Article')
     const buttonsDelete = document.querySelectorAll('.Article-button--delete')
+    const totalPrice = document.querySelector('.Comprar-price')
+
+    // Variables
+    let totalPriceNum = parseInt(totalPrice.innerText, 10)
 
     // Función Handler
     const handleClick = (index) => () => {
         const article = articles[index]
+
+        // Actualizar el precio total
+        const price = article.querySelector('.Article-price')
+        const priceNum = parseInt(price.innerText, 10)
+        totalPriceNum = totalPriceNum - priceNum
+        document.getElementById('total-price').textContent = `${totalPriceNum}`
+
         article.remove()
+
     }
 
     // Eventos
@@ -138,30 +178,4 @@
     })
     
 })();
-
-/* 
-    Calcular total del carrito
- */
-(() => {
-
-    // Constantes
-    
-    const bag = document.querySelector('.Div--bag')
-    const prices = bag.querySelectorAll('.Article-price')
-    console.log(prices)
-
-    // innerText
-
-    // Variables
-    let totalPrice = 0
-
-    prices.forEach((price, index) =>{
-        const priceNum = parseInt(price.innerText, 10)
-        totalPrice = totalPrice + priceNum
-    })
-
-    document.getElementById('total-price').textContent = `${totalPrice} €`
-
-})();
-
 
