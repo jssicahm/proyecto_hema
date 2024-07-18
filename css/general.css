@@ -378,24 +378,22 @@ body {
     flex-flow: row nowrap;
 }
 
-.Footer-li {
+.Footer-a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: start;
     align-items: center;
     gap: 1rem;
-}
 
-.Footer-svg {
-    width: 1.5rem;
-}
-
-.Footer-a {
     transition: color .25s ease;
 }
 
 .Footer-a:hover {
     color: var(--decoration-color);
+}
+
+.Footer-svg {
+    width: 1.5rem;
 }
 
 /* @MEDIA */
